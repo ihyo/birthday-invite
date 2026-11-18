@@ -59,9 +59,9 @@ dd span{display:block;color:var(--soft);font-weight:300;font-size:.9rem;margin-t
     <svg class="orn" aria-hidden="true"><use href="#or"/></svg>
     <h1><small>김경순님의</small>58번째 생일파티</h1>
     <svg class="orn" aria-hidden="true"><use href="#or"/></svg>
-    <span class="dday" id="dday">2026. 11. 21</span>
+    <span class="dday" id="dday">2026. 11. 20</span>
     <dl>
-      <div class="row"><dt>일시</dt><dd>2026년 11월 21일 토요일<span>저녁 7시</span></dd></div>
+      <div class="row"><dt>일시</dt><dd>2026년 11월 20일 토요일<span>저녁 7시</span></dd></div>
       <div class="row"><dt>장소</dt><dd>라이즈 호텔 4층 차르<span id="addr">서울특별시 마포구 양화로 130 라이즈 호텔 4층</span>
         <div class="actions">
           <a class="btn main" href="https://map.naver.com/p/search/%EB%9D%BC%EC%9D%B4%EC%A6%88%ED%98%B8%ED%85%94%20%EB%A7%88%ED%8F%AC" target="_blank" rel="noopener">지도 보기</a>
@@ -79,7 +79,7 @@ dd span{display:block;color:var(--soft);font-weight:300;font-size:.9rem;margin-t
   try{
     var el=document.getElementById('dday');
     var n=new Date(), t=new Date(n.getFullYear(),n.getMonth(),n.getDate());
-    var d=Math.round((new Date(2026,10,21)-t)/86400000);
+    var d=Math.round((new Date(2026,10,20)-t)/86400000);
     el.textContent = d>0 ? 'D-'+d : d===0 ? '오늘 저녁 7시' : '함께해 주셔서 감사합니다';
   }catch(e){}
   var b=document.getElementById('copy');
